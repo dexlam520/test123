@@ -1,0 +1,19 @@
+﻿A generic transaction web service to accept and store data inside a common collection, along with a process that runs X number of times a day to produce a summarized for the below intervals.
+
+
+Daily
+Weekly
+Monthly
+Yearly
+
+
+Many different applications will send data into this service with a common structure (DFA, iFB). The data needs to be organized by application type and should store the raw data only as long as necessary to create a summary.
+
+
+The deliverables include application code, cloud formation code for hosting (Dev, QA, Prod), and delivery tooling (Jenkins, Github Actions).
+
+
+
+
+Resources:
+https://github.com/ZerionSoftware/Transactionswebservice
